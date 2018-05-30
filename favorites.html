@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title> Favorites </title>
+    </head> 
+    <header>
+       <div class="nav"> 
+   <div><h1 class ="title"> What Foods Are the Customers' Favorites?</a></div>
+    <a href="index.html">About Us </a>
+    <a href="locations.html">Our Locations </a>
+    <a href="menu.html"> What's On The Menu?</a>
+
+</header>
+    
+    <style>
+     .nav {
+        text-align: center;
+}
+a {
+       Font-family: impact;
+       color: black;
+       font-Size: 2em;
+}
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 350px;
+  height: 400px;
+}
+
+.photos{width:400px;height:400px;
+}
+
+#grid-container{
+   grid-template:500px 500px 500px/500px 500px 500px;
+    display:grid;
+    width:1000;
+    height:1000;
+}
+    .grid-item{
+ width:500px;
+ height:500px;
+}
+h1 {
+       font-family: impact;
+       font-size: 2.5em;
+       
+}
+
+    </style>
+    
+    <div id="grid-container">
+    <div class="grid-item"><img src="pizza.jpg" class="photos"/></div>
+    <div class="grid-item"><img src="burger.jpg" class="photos"/></div>
+    <div class="grid-item"><img src="nachos.jpg" class="photos"/></div>       <!-- This is the code for the grid-->
+    <div class="grid-item"><img src="pasta alfredo.jpg" class="photos"/></div>
+    <div class="grid-item"><img src="image2.jpg" class="photos"/></div>
+    <div class="grid-item"><img src="IMG_5871.jpg" class="photos"/></div>
+    </div>
+    
+    
+    
